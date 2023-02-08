@@ -1,0 +1,16 @@
+.chat__input {
+    padding: 5px;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    width: 80%;
+}
+
+.chat__result {
+    height: 200px;
+    width: 80%;
+}
+.chat__result::first-letter {
+    text-transform: uppercase;
+}
