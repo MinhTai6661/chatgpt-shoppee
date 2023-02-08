@@ -3,7 +3,7 @@ import './App.css';
 import ChatFeild from './components/ChatField';
 import { Configuration, OpenAIApi } from 'openai';
 const configuration = new Configuration({
-    apiKey: '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',
+    apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 function App() {
